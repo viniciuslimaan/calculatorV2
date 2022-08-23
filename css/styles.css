@@ -1,0 +1,70 @@
+:root {
+    --font: #333;
+    --primary: #00e4de;
+    --primary-light: #a0fffc;
+    --primary-hover: #bdfffd;
+    --secondary: #fafafa;
+    --bg: #fff;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background: #f2f2f2;
+}
+
+#calculator {
+    max-width: 100%;
+    width: 400px;
+    height: 700%;
+    margin: 50px auto;
+    background: var(--bg);
+    color: var(--font);
+    box-shadow: 0 90px 160px rgba(0,0,0,.15);
+}
+
+#panel {
+    text-align: right;
+    padding: 15px;
+    font-weight: 700;
+    font-size: 5rem;
+    background: var(--primary);
+    overflow-x: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+#calculator > .row > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: calc(100% / 4);
+    height: 100px;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+#calculator > .row > div:hover {
+    background: var(--primary-hover);
+    transition: .5s ease;
+}
+
+
+#result {
+    width: calc(100% / 2)!important;
+    background: var(--primary-light);
+}
+
+#division, #multiplication, #addition, #subtraction {
+    background: var(--secondary);
+}
