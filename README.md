@@ -8,7 +8,7 @@ Teclas adaptadas:
     Enter = Exibe o resultado da conta
 ```
 
-Deploy do projeto: https://viniciuslimaan.github.io/calculatorv2/
+Deploy do projeto: https://viniciuslimaan.github.io/calculatorv2
 
 Para utilizar o programa use: 
 
