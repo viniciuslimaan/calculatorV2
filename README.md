@@ -1,4 +1,4 @@
-# Calculadora v2
+# Calculadora V2
 Calculadora feita em jQuery para um trabalho de faculdade. Nessa versão, é possível utilizar o teclado para mexer na calculadora. Também conta com um sistema de deletar apenas um caracter por vez.
 
 Teclas adaptadas:
@@ -8,7 +8,7 @@ Teclas adaptadas:
     Enter = Exibe o resultado da conta
 ```
 
-Deploy do projeto: https://viniciuslimaan.github.io/calculatorv2
+Deploy do projeto: https://viniciuslimaan.github.io/calculatorV2
 
 Para utilizar o programa use: 
 
